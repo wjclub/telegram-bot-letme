@@ -55,6 +55,12 @@ function inline_response($query_id, $query_text) {
 			'thumb_url' => 'https://cdn.ecosia.org/assets/images/png/apple-touch-icon.png',
 		],
 		[
+			'ident' => 'wiki',
+			'url' => 'https://en.wikipedia.org/wiki/Special:Search/' . urlencode($query_text),
+			'name' = '📚 Wikipedia',
+			'thumb_url' => 'https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png',
+		],
+		[
 			'ident' => 'Wikihow',
 			'url' => 'https://en.wikihow.com/wikiHowTo?search=' . urlencode($query_text),
 			'name' => '📖 Wikihow',
