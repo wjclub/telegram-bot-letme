@@ -57,7 +57,7 @@ function inline_response($query_id, $query_text) {
 		[
 			'ident' => 'wiki',
 			'url' => 'https://en.wikipedia.org/wiki/Special:Search/' . urlencode($query_text),
-			'name' = '📚 Wikipedia',
+			'name' => '📚 Wikipedia',
 			'thumb_url' => 'https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png',
 		],
 		[
